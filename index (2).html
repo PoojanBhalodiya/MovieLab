@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        /* font */
+        font-family: "Ubuntu", sans-serif;
+      }
+    </style>
+  </head>
+
+  <div class="w3-light-grey w3-content" style="max-width: 1600px">
+    <!-- Sidebar/menu -->
+    <nav
+      class="w3-sidebar w3-collapse w3-white w3-animate-left"
+      style="z-index: 3; width: 300px"
+      id="mySidebar"
+    >
+      <br />
+      <div class="w3-container">
+        <a
+          href="#"
+          onclick="w3_close()"
+          class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey"
+          title="close menu"
+        >
+          <i class="fa fa-remove"></i>
+        </a>
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/2184/2184561.png"
+          style="width: 45%"
+          class="w3-round"
+        /><br /><br />
+        <h4><b>_/ Movie Lab \_</b></h4>
+      </div>
+      <div class="w3-bar-block">
+        <a
+          href="#welcome"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          >Tips</a
+        >
+        <a
+          href="#mixmovie"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          >Mix Movies</a
+        >
+        <a
+          href="#gujarati"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          >Gujarati</a
+        >
+        <a
+          href="#dubbed"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          >Dubbed</a
+        >
+        <a
+          href="#webseries"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          >Web Series</a
+        >
+        <a
+          href="#hollywood"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          >HollyWood Movies</a
+        >
+        <a
+          href="#south"
+          onclick="w3_close()"
+          class="w3-bar-item w3-button w3-padding"
+          >South Movies</a
+        >
+
+        <a
+        href="#hindi"
+        onclick="w3_close()"
+        class="w3-bar-item w3-button w3-padding"
+        >Hindi Movies</a
+      >
+
+      <a
+      href="#english"
+      onclick="w3_close()"
+      class="w3-bar-item w3-button w3-padding"
+      >English Movies</a
+    >
+
+      </div>
+    </nav>
+
+    <!-- Overlay effect when opening sidebar on small screens -->
+    <div
+      class="w3-overlay w3-hide-large w3-animate-opacity"
+      onclick="w3_close()"
+      style="cursor: pointer"
+      title="close side menu"
+      id="myOverlay"
+    ></div>
+
+    <!-- !PAGE CONTENT! -->
+    <div class="w3-main" style="margin-left: 300px">
+      <div id="tips" class="w3-row-padding">
+        <br />
+        <br />
+        <br />
+        <h1>Hints</h1>
+        <br />
+        <h3>
+          Free to Use | Content Provider is Unknown So don't try to catch him ,
+          just enjoy
+        </h3>
+        <h3>
+          Use Download Button Redirects you to <b>Mega.nz </b>Drive, Content is
+          100% Safe & Virus Free
+        </h3>
+        <h3>
+          Site is under Development so Wait for Few Days &
+          <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Check for New Movies at every Saturday Sunday
+        </h3>
+        <br />
+        <br />
+        <br />
+      </div>
+
+      <!-- Hindi Movies------------------------------------------------------------------------------------------->
+      <div id="hindi" class="w3-row-padding">
+        <h1>&nbsp;Hindi Movies</h1>
+        <div class="w3-quarter w3-container w3-margin-bottom">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BN2RjZDJhYzUtOTQ5Yy00OWM3LWE5OTctM2Y0YWVmNzAzODllXkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX638_.jpg"
+            alt="Norway"
+            style="width: 100%"
+            class=""
+          />
+          <div class="w3-container w3-white">
+            <p>Name : <b>Sita Ramam</b></p>
+            <p>Category : <b>Story</b></p>
+            <p>Size : <b>1.40 GB</b></p>
+
+            <div class="w3-padding-16">
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://youtu.be/3UKsbXQUwqw'; "
+                target="_blank"
+              >
+                Trailer
+              </button>
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://mega.nz/file/rEgVzIAa#NyMZkp1W1Bwpji23tG0DUykR08Vwg0FzY7uX8tQgR0U';"
+                target="_blank"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-quarter w3-container w3-margin-bottom">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BYTZjNzI1ZTItOTE5Ny00MjBjLWE1NjUtOWRkZWVkOTk2OTZmXkEyXkFqcGdeQXVyOTI3MzI4MzA@._V1_FMjpg_UX1000_.jpg"
+            alt="Norway"
+            style="width: 100%"
+            class=""
+          />
+          <div class="w3-container w3-white">
+            <p>Name : <b>Monica, O My Darling</b></p>
+            <p>Category : <b>Funny</b></p>
+            <p>Size : <b>1.00 GB</b></p>
+
+            <div class="w3-padding-16">
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://youtu.be/AQubo_u_jec'; "
+                target="_blank"
+              >
+                Trailer
+              </button>
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://mega.nz/file/6NYmQbRQ#Oe_5cEqKmpXo5cnXRkwyE28iLWhmJT6EO4egkUx9tp0';"
+                target="_blank"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="w3-quarter w3-container w3-margin-bottom">
+          <img
+            src="https://wallpapercave.com/wp/wp8639649.jpg"
+            alt="Norway"
+            style="width: 100%"
+            class=""
+          />
+          <div class="w3-container w3-white">
+            <p>Name : <b>DRAVISKMHD</b></p>
+            <p>Category : <b>Unknown</b></p>
+            <p>Size : <b>2.07 GB</b></p>
+
+            <div class="w3-padding-16">
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = ''; "
+                target="_blank"
+              >
+                Trailer
+              </button>
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://mega.nz/file/6NYmQbRQ#Oe_5cEqKmpXo5cnXRkwyE28iLWhmJT6EO4egkUx9tp0';"
+                target="_blank"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-quarter w3-container w3-margin-bottom">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BZWU3NjhhYTYtZmU2Zi00NTAwLTgwOWEtMmFmNjgxOWUzOTY4XkEyXkFqcGdeQXVyMTA3MDk2NDg2._V1_FMjpg_UX1000_.jpg"
+            alt="Norway"
+            style="width: 100%"
+            class=""
+          />
+          <div class="w3-container w3-white">
+            <p>Name : <b>Nikamma</b></p>
+            <p>Category : <b>Story</b></p>
+            <p>Size : <b>1.12 GB</b></p>
+
+            <div class="w3-padding-16">
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://youtu.be/z41dtcH_NfI'; "
+                target="_blank"
+              >
+                Trailer
+              </button>
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://mega.nz/file/Hd5BXBBR#Sidbn0TxO-Lh5souokvmh9UgcZqztYXbffVyeO8NQQc';"
+                target="_blank"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="w3-quarter w3-container w3-margin-bottom">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BM2QzM2JiNTMtYjU4Ny00MDZkLTk3MmUtYTRjMzVkZGJlNmYyXkEyXkFqcGdeQXVyMTUzNTgzNzM0._V1_FMjpg_UX1000_.jpg"
+            alt="Norway"
+            style="width: 100%"
+            class=""
+          />
+          <div class="w3-container w3-white">
+            <p>Name : <b>Pathaan</b></p>
+            <p>Category : <b>Story</b></p>
+            <p>Size : <b>1.14 GB</b></p>
+
+            <div class="w3-padding-16">
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://youtu.be/vqu4z34wENw'; "
+                target="_blank"
+              >
+                Trailer
+              </button>
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://mega.nz/file/edwkFLTJ#cb7ROkgOYs5fI5KE241Kuz6s8Vd-6tr4XS4YnKG5gao';"
+                target="_blank"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="w3-quarter w3-container w3-margin-bottom">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg"
+            alt="Norway"
+            style="width: 100%"
+            class=""
+          />
+          <div class="w3-container w3-white">
+            <p>Name : <b>RRR</b></p>
+            <p>Category : <b>Story</b></p>
+            <p>Size : <b>1.43 GB</b></p>
+
+            <div class="w3-padding-16">
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://youtu.be/GY4BgdUSpbE'; "
+                target="_blank"
+              >
+                Trailer
+              </button>
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://mega.nz/file/iI40WJ5Y#on6HwadWitRZyh1l5koMYaNILnybNOSS5t7Zy4QDKFg';"
+                target="_blank"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="w3-quarter w3-container w3-margin-bottom">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMTMxMTU5MTY4MV5BMl5BanBnXkFtZTcwNzgyNjg2NQ@@._V1_.jpg"
+            alt="Norway"
+            style="width: 100%"
+            class=""
+          />
+          <div class="w3-container w3-white">
+            <p>Name : <b>Puss in Boots</b></p>
+            <p>Category : <b>Story</b></p>
+            <p>Size : <b>2.95 GB</b></p>
+
+            <div class="w3-padding-16">
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://youtu.be/tsTLlZ32SpI'; "
+                target="_blank"
+              >
+                Trailer
+              </button>
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://mega.nz/file/SRhT3TiI#ZJ7RHXygv_mhan2sb6awRXm4ZYFQBXOkKP2LgjPkHaI';"
+                target="_blank"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="w3-quarter w3-container w3-margin-bottom">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BNDhjZjc4NDMtMDZjNC00ZjhiLWE0OTItM2M0NGM1MThjYTQ4XkEyXkFqcGdeQXVyMTI1NDEyNTM5._V1_.jpg"
+            alt="Norway"
+            style="width: 100%"
+            class=""
+          />
+          <div class="w3-container w3-white">
+            <p>Name : <b>Mili</b></p>
+            <p>Category : <b>Story</b></p>
+            <p>Size : <b>1.00 GB</b></p>
+
+            <div class="w3-padding-16">
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://youtu.be/F9rnpoAwNsE'; "
+                target="_blank"
+              >
+                Trailer
+              </button>
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://mega.nz/file/6BQ0BDRD#mvoavCTHo6wqFDMbjKh52hKxz9ioe8HDoMWqmkn_tiY';"
+                target="_blank"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+
+
+
+        
+        <div class="w3-quarter w3-container w3-margin-bottom">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BMTBmNDljZjctOTgwYy00NzNmLTkxN2YtY2Y5MjVjOWIzNWExXkEyXkFqcGdeQXVyODY3NzQyNDk@._V1_.jpg"
+            alt="Norway"
+            style="width: 100%"
+            class=""
+          />
+          <div class="w3-container w3-white">
+            <p>Name : <b>Goodbye</b></p>
+            <p>Category : <b>Story</b></p>
+            <p>Size : <b>1.9 GB</b></p>
+
+            <div class="w3-padding-16">
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://youtu.be/n5gICDMQOcA'; "
+                target="_blank"
+              >
+                Trailer
+              </button>
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://mega.nz/file/vVp1SCrA#sXgfE5n3_nUsJ6s5ddbHzULRwzg_A_uOFvxR3BZ65Ak';"
+                target="_blank"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+
+       
+      </div>
+      <!-- End of Section---------------------------------------------------------------------------------------------- -->
+      <!-- Gujrati Movies------------------------------------------------------------------------------------------->
+      <div id="gujarati" class="w3-row-padding">
+        <h1>&nbsp;Gujarati Movies</h1>
+        <div class="w3-quarter w3-container w3-margin-bottom">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BNTAyOWZmMzMtYzUxYy00NGExLWJmODYtYzU1NzViNDcxNGM4XkEyXkFqcGdeQXVyODY2MTUxMDA@._V1_FMjpg_UX1000_.jpg"
+            alt="Norway"
+            style="width: 100%"
+            class=""
+          />
+          <div class="w3-container w3-white">
+            <p>Name : <b>Kutch Express</b></p>
+            <p>Category : <b>Story</b></p>
+            <p>Size : <b>2.00 GB</b></p>
+
+            <div class="w3-padding-16">
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://youtu.be/26B24vrYmCY'; "
+                target="_blank"
+              >
+                Trailer
+              </button>
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://mega.nz/file/WMIzGCQJ#AiQTy5LgpfuRbphm45c_uenFdGgYxJqY02Y374rcZJk';"
+                target="_blank"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="w3-quarter w3-container w3-margin-bottom">
+          <img
+            src="https://m.media-amazon.com/images/M/MV5BOTIwNTZhYjMtM2EyNS00YmFkLTllYWUtNzRhYzhjOWI3ODQ2XkEyXkFqcGdeQXVyMTUyOTU3MjUy._V1_FMjpg_UX1000_.jpg"
+            alt="Norway"
+            style="width: 100%"
+            class=""
+          />
+          <div class="w3-container w3-white">
+            <p>Name : <b>Naadi Dosh</b></p>
+            <p>Category : <b>Story</b></p>
+            <p>Size : <b>700 MB</b></p>
+
+            <div class="w3-padding-16">
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://youtu.be/LSkyUydaVxo'; "
+                target="_blank"
+              >
+                Trailer
+              </button>
+              <button
+                class="w3-button w3-teal w3-padding w3-hover-black"
+                onclick="location.href = 'https://mega.nz/file/dyxQgIqA#A7teXmJjgTe7INAwKWUhBMOlqzOBSUhT1Kbe4cEKJWo';"
+                target="_blank"
+              >
+                Download
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End of Section---------------------------------------------------------------------------------------------- -->
+    
+
+
+<!-- English Movies------------------------------------------------------------------------------------------->
+<div id="english" class="w3-row-padding">
+  <h1>&nbsp;English Movies</h1>
+  <div class="w3-quarter w3-container w3-margin-bottom">
+    <img
+      src="https://m.media-amazon.com/images/M/MV5BOTgzMzE4MGItZDgxYS00ZGEwLWE3YTctZWY3ZDAyMTk0ZGU4XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+      alt="Norway"
+      style="width: 100%"
+      class=""
+    />
+    <div class="w3-container w3-white">
+      <p>Name : <b>Promising Young Woman</b></p>
+      <p>Category : <b>Story</b></p>
+      <p>Size : <b>1.00 GB</b></p>
+
+      <div class="w3-padding-16">
+        <button
+          class="w3-button w3-teal w3-padding w3-hover-black"
+          onclick="location.href = 'https://youtu.be/7i5kiFDunk8'; "
+          target="_blank"
+        >
+          Trailer
+        </button>
+        <button
+          class="w3-button w3-teal w3-padding w3-hover-black"
+          onclick="location.href = 'https://mega.nz/file/rcw0maLS#TEWD6wuTlltAWvN0cdxewajaVp_Lhh_V96Gqf6KdZr8';"
+          target="_blank"
+        >
+          Download
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="w3-quarter w3-container w3-margin-bottom">
+    <img
+      src="https://m.media-amazon.com/images/M/MV5BYzAyZjg5NzItMGFmMy00MWI2LWI1MGMtMTRhYWFiOTI4MGY3XkEyXkFqcGdeQXVyMTQyMTMwOTk0._V1_FMjpg_UX1000_.jpg"
+      alt="Norway"
+      style="width: 100%"
+      class=""
+    />
+    <div class="w3-container w3-white">
+      <p>Name : <b>Royalteen</b></p>
+      <p>Category : <b>Story</b></p>
+      <p>Size : <b>1.00 GB</b></p>
+
+      <div class="w3-padding-16">
+        <button
+          class="w3-button w3-teal w3-padding w3-hover-black"
+          onclick="location.href = 'https://youtu.be/cRu4yK8Zczs'; "
+          target="_blank"
+        >
+          Trailer
+        </button>
+        <button
+          class="w3-button w3-teal w3-padding w3-hover-black"
+          onclick="location.href = 'https://mega.nz/file/3AYA2JYB#l_7LMlSusIx1pTthney4-5xgyN87zBbQRh-sIGxwypw';"
+          target="_blank"
+        >
+          Download
+        </button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="w3-quarter w3-container w3-margin-bottom">
+    <img
+      src="https://m.media-amazon.com/images/M/MV5BYmMxZWRiMTgtZjM0Ny00NDQxLWIxYWQtZDdlNDNkOTEzYTdlXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+      alt="Norway"
+      style="width: 100%"
+      class=""
+    />
+    <div class="w3-container w3-white">
+      <p>Name : <b>Thor: Love and Thunder</b></p>
+      <p>Category : <b>Story</b></p>
+      <p>Size : <b>1.15 GB</b></p>
+
+      <div class="w3-padding-16">
+        <button
+          class="w3-button w3-teal w3-padding w3-hover-black"
+          onclick="location.href = 'https://youtu.be/Go8nTmfrQd8'; "
+          target="_blank"
+        >
+          Trailer
+        </button>
+        <button
+          class="w3-button w3-teal w3-padding w3-hover-black"
+          onclick="location.href = 'https://mega.nz/file/qcxQjIiA#N3RigNJIQeOMFbG6R-guhtvK-6AVUsjcvEHOCbHB3dU';"
+          target="_blank"
+        >
+          Download
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-quarter w3-container w3-margin-bottom">
+    <img
+      src="https://m.media-amazon.com/images/M/MV5BZWYzOGEwNTgtNWU3NS00ZTQ0LWJkODUtMmVhMjIwMjA1ZmQwXkEyXkFqcGdeQXVyMjkwOTAyMDU@._V1_.jpg"
+      alt="Norway"
+      style="width: 100%"
+      class=""
+    />
+    <div class="w3-container w3-white">
+      <p>Name : <b>Top Gun: Maverick</b></p>
+      <p>Category : <b>Story</b></p>
+      <p>Size : <b>1.11 GB</b></p>
+
+      <div class="w3-padding-16">
+        <button
+          class="w3-button w3-teal w3-padding w3-hover-black"
+          onclick="location.href = 'https://youtu.be/giXco2jaZ_4'; "
+          target="_blank"
+        >
+          Trailer
+        </button>
+        <button
+          class="w3-button w3-teal w3-padding w3-hover-black"
+          onclick="location.href = 'https://mega.nz/file/fQAwyA4C#hD5S2Mdy8rZKXSBsYFtm_5-bRkMbSWpZOT985Cz1gDY';"
+          target="_blank"
+        >
+          Download
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- End of Section---------------------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+    <script>
+      // Script to open and close sidebar
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+      }
+
+      function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+      }
+    </script>
+  </div>
+</html>
